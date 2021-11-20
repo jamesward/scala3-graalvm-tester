@@ -3,10 +3,10 @@ Scala 3 GraalVM Tester
 
 Run (JVM):
 ```
-./sbt run
+./gradlew run
 ```
 
 Create the native image:
 ```
-./sbt graalvm-native-image:packageBin
+./gradlew nativeImage
 ```
