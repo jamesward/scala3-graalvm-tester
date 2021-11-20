@@ -6,12 +6,7 @@ Run (JVM):
 ./sbt run
 ```
 
-Run Native Image with fallback:
+Create the native image:
 ```
-./sbt packageWithFallback
-```
-
-Run Native Image with no-fallback:
-```
-./sbt packageWithNoFallback
+./sbt graalvm-native-image:packageBin
 ```
