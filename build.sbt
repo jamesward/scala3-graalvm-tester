@@ -1,10 +1,12 @@
-enablePlugins(GraalVMNativeImagePlugin)
+enablePlugins(NativeImagePlugin)
 
 scalaVersion := "3.1.0"
 
-graalVMNativeImageOptions := Seq(
+Compile / mainClass := Some("run")
+
+nativeImageOptions := Seq(
   "--verbose",
   "--no-fallback",
 )
 
-graalVMNativeImageGraalVersion := Some("21.3.0")
+nativeImageVersion := "21.3.0"

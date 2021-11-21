@@ -6,7 +6,7 @@ Run (JVM):
 ./sbt run
 ```
 
-Create the native image:
+Run the native image:
 ```
-./sbt graalvm-native-image:packageBin
+./sbt nativeImageRun
 ```
