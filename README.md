@@ -8,5 +8,5 @@ Run (JVM):
 
 Run the native image:
 ```
-./sbt nativeImageRun
+./sbt nativeImage nativeImageRun
 ```
