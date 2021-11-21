@@ -1,0 +1,10 @@
+[
+  {
+    "name":"sun.misc.Unsafe",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"App$package$",
+    "fields":[{"name":"0bitmap$1"}]
+  }
+]
