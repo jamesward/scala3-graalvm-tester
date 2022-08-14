@@ -1,6 +1,6 @@
 enablePlugins(NativeImagePlugin)
 
-scalaVersion := "3.1.0"
+scalaVersion := "3.2.0-RC3"
 
 Compile / mainClass := Some("run")
 
