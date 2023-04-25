@@ -1,6 +1,6 @@
 enablePlugins(NativeImagePlugin)
 
-scalaVersion := "3.2.0-RC3"
+scalaVersion := "3.3.0-RC2"
 
 Compile / mainClass := Some("run")
 
@@ -9,4 +9,6 @@ nativeImageOptions := Seq(
   "--no-fallback",
 )
 
-nativeImageVersion := "21.3.0"
+nativeImageJvm := "graalvm-java17"
+
+nativeImageVersion := "22.3.1"
